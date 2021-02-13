@@ -120,7 +120,7 @@ https://marketplace.visualstudio.com/items?itemName=golang.Go
 
 最後に Go 言語の拡張機能が依存するパッケージをインストールする
 
-VSCode でコマンドパレット(Ctrl+Shift+P)を開いて `GO: Install/Update tools` で検索する
+VSCode でコマンドパレット(Ctrl + Shift + P)を開いて `GO: Install/Update tools` で検索する
 
 全ツールを選択し、OK ボタンをクリックしてインストールを開始する
 
