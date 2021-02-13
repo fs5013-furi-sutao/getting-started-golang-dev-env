@@ -109,3 +109,40 @@ go version
 go version go1.15.8 windows/amd64
 ```
 
+## VSCode の拡張機能をインストール
+
+VSCode から Go の拡張機能をインストールする
+
+Go - Visual Studio Marketplace  
+https://marketplace.visualstudio.com/items?itemName=golang.Go
+
+## 拡張機能の依存パッケージをインストール
+
+最後に Go 言語の拡張機能が依存するパッケージをインストールする
+
+VSCode でコマンドパレット(Ctrl+Shift+P)を開いて `GO: Install/Update tools` で検索する
+
+全ツールを選択し、OK ボタンをクリックしてインストールを開始する
+
+## サンプルプログラムの実行
+
+main.go のファイル名で、以下のプログラムを作成する
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, go!")
+}
+```
+
+Ctrl + F5 でプログラムを実行する
+
+```
+Hello, go!
+```
+
+これで、Go 言語の開発環境構築、サンプルプログラムの実行までが完了した
+
